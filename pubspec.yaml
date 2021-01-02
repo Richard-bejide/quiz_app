@@ -1,0 +1,48 @@
+name: quiz_app
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.2
+  circular_countdown_timer: ^0.0.8
+  html_character_entities: ^0.1.2+4
+  fileaudioplayer: ^1.0.0
+  path_provider:
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+
+  uses-material-design: true
+  
+  fonts:
+    - family: SourceSansPro
+      fonts:
+        - asset: fonts/SourceSansPro-Black.ttf
+  
+    - family: Langar
+      fonts:
+        - asset: fonts/Langar-Regular.ttf
+  
+    - family: Merienda
+      fonts:
+        - asset: fonts/Merienda-Bold.ttf
+    
+    
+  
+
+
+  assets:
+    - images/
+    - assets/tick.mp3
+  
